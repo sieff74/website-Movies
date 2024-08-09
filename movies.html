@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUB</title>
+    <link rel="icon" href="/image/icon.png">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="image/icon.png" alt="" width="40">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav justify-content-center w-100 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="home.html#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="home.html#about">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="home.html#catigory">catigory</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#movies">movies</a>
+              </li>
+            </ul>
+            <span class="fw-bold mx-4" id="login"></span>
+            <button class="btn btn-outline-dark btn-sm" id="logoutBtn">logOut</button>
+          </div>
+        </div>
+    </nav>
+    <div class="to-up position-fixed end-0 bottom-0 m-5">
+        <i class="fas fa-circle-arrow-up"></i>
+      </div>  
+      <div class="movies py-5" id="#movies">
+        <div class="container py-5">
+          <div class="row g-5" id="showData">
+           
+          </div>
+        </div>
+      </div>  
+    
+
+
+    <script src="java/bootstrap.bundle.min.js"></script>
+    <script src="java/jquery-3.6.3.min.js"></script>
+    <script src="java/movies.js"></script>
+    <script src="java/home.js"></script>
+</body>
+</html>

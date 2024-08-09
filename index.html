@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="main.css">
+    <style>
+        :root{
+            --main-font: 'Dosis', sans-serif;
+            --light-bg: #1B2430;
+            --main-color:#E94560;
+            --font-color: #fff;
+            --transition: .7s;
+            --border:2px solid rgb(51, 51, 51);
+        }
+        body{
+            background-image: url(image/bg.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            
+        }
+        .form{
+            background-color: #1B2430;
+
+        }
+        .field:focus{
+            background-color: var(--main-color);
+            transition: var(--transition);
+            color: #fff;
+        }
+        img{
+            width: 50px;
+        }
+        a{
+            color: var(--font-color);
+            font-family: var(--main-font);
+            font-size: 20px;
+        }
+        a:hover{
+            color: var(--main-color);
+        }
+    </style>
+</head>
+<body>
+    <section class="cover">
+        <!-- <div class="imegSrc"></div> -->
+        <div class="container">
+            <div class="row justify-content-center align-content-center vh-100">
+                <div class="form w-50 m-auto p-2 rounded shadow">
+                    <span id="error">
+                        <!-- <div class="alert alert-danger"></div> -->
+                    </span>
+                    <div class="imges py-2 text-center">
+                        <img src="image/icon.png" alt="">
+                    </div>
+                    <input class="field form-control my-4" type="text" name="name" placeholder="Enter Your Name..." id="name">
+                    <input class="field form-control my-4" type="text" name="email" placeholder="Enter Your Email..." id="email">
+                    <input class="field form-control my-4" type="password" name="password" placeholder="Enter Your Password..." id="password">
+                    <div class="accept d-flex justify-content-between align-items-center">
+                        <button class="btn btn-danger" id="Btnlogin">login</button>
+                        <a class="text-decoration-none" href="#">forget password</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    
+
+
+
+    <script src="java/index.js"></script>
+</body>
+</html>

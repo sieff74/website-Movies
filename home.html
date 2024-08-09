@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HUB</title>
+    <link rel="icon" href="/image/icon.png">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div id="loading">
+    <img style="width: 30px;" src="/image/icon.png" alt="" class="fa-spin">
+  </div>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="image/icon.png" alt="" width="40">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav justify-content-center w-100 mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#catigory">catigory</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="movies.html">movies</a>
+              </li>
+            </ul>
+            <span class="fw-bold mx-4" id="login"></span>
+            <button class="btn btn-outline-dark btn-sm" id="logoutBtn">logOut</button>
+          </div>
+        </div>
+    </nav>
+    <section class="landing" id="home">
+        <div class="overlay">
+          <div class="mass">
+            <h1>Wlcome To <span>Movies</span> Hub</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae culpa est totam quas dolore aperiam?</p>
+        </div>
+        </div>
+    </section> 
+    <section class="about py-5" id="about">
+        <div class="container">
+            <div class="about-caption py-5">
+                <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ab autem commodi perferendis hic quia iusto odit! Accusantium non optio distinctio nihil laborum quo voluptatum laboriosam veritatis voluptas quibusdam numquam repellendus similique voluptate sit autem laudantium quia nesciunt repellat praesentium, quidem suscipit dolorum perspiciatis? Nihil quasi voluptatem inventore repellat temporibus.</p>
+            </div>
+            <div class="row g-5">
+                <div class="col-md-4">
+                    <div class="about-items shadow rounded py-5 px-3 text-center">
+                        <h4>Action</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="about-items shadow rounded py-5 px-3 text-center">
+                        <h4>Stories</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="about-items shadow rounded py-5 px-3 text-center">
+                        <h4>Tv</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="catigory py-5" id="catigory">
+      <div class="container">
+        <div class="catigory-caption py-5 d-flex justify-content-center align-content-center">
+          <h3 class=" text-uppercase">Categories</h3>
+        </div>
+        <div class="row align-items-center g-5">
+          <div class="col-md-6">
+            <div class="imeg rounded shadow overflow-hidden">
+              <img class="w-100" src="image/1.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="imeg rounded shadow overflow-hidden">
+              <img class="w-100" src="image/3.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="review">
+      <div class="overlay py-5">
+        <div class="container">
+          <div class="row justify-content-center g-5">
+            <div class="col-md-4 text-center">
+              <div class="review-items text-center">
+                <span class=" fs-2" id="random"></span>
+                <h5 class="text-white">Reviews</h5>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="review-items text-center">
+                <span class=" fs-2" id="random"></span>
+                <h5 class="text-white">Watching</h5>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="review-items text-center">
+                <span class=" fs-2" id="random"></span>
+                <h5 class="text-white">Subscribe</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="to-up position-fixed end-0 bottom-0 m-5">
+      <i class="fas fa-circle-arrow-up"></i>
+    </div>
+
+
+
+
+
+
+
+
+
+ <script src="java/bootstrap.bundle.min.js"></script>
+ <script src="/java/jquery-3.6.3.min.js"></script>
+ <script src="/java/home.js"></script>
+</body>
+</html>
